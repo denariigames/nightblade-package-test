@@ -19,13 +19,6 @@ It functions as a private, curated "addon marketplace" directly inside the Unity
   - Status (All, Installed, Update Available, Not Installed)
   - Recency (Anytime, This week, This month)
 
-## Usage
-
-1. Open the Addon Manager window (`Menu → NightBlade → Addon Manager`)
-2. Browse or filter the list
-3. Click a package to view details (screenshot, description, version, GitHub link)
-4. Click Install
-
 ## Contributing Addons
 
 To contribute your addon:
