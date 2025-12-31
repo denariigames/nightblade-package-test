@@ -1,0 +1,14 @@
+{
+  "name": "Addon Name",
+  "guid": "<unique-string-to-identify-addon>",
+  "packageUrl": "https://github.com/<owner>/<repo>/raw/refs/heads/master/<addon>.unitypackage",
+  "version": "1.0.0",
+  "updateDate": "2026-01-01",
+  "author": {
+    "name": "Your name",
+	  "url": "https://example.com"
+  },
+  "category": "Characters",
+  "description": "A short description of your addon that will be displayed in Addon Manager.",
+  "screenshot": "screenshot.png"
+}
