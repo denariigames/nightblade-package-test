@@ -1,6 +1,6 @@
 # NightBlade MMO Addons
 
-**Addon Manager** is a custom Unity Editor window designed for the [**NightBlade MMO**](https://github.com/Fallen-Entertainment/NightBlade_MMO) that provides a clean, professional interface for discovering, installing, and managing addons.
+**Addon Manager** is a custom Unity Editor window designed for [**NightBlade MMO**](https://github.com/Fallen-Entertainment/NightBlade_MMO) that provides a clean, professional interface for discovering, installing, and managing addons.
 
 It functions as a private, curated "addon marketplace" directly inside the Unity Editor, making it easy to browse and install community or official addons without leaving your project.
 
@@ -18,6 +18,9 @@ It functions as a private, curated "addon marketplace" directly inside the Unity
   - Publisher (Core or Community)
   - Status (All, Installed, Update Available, Not Installed)
   - Recency (Anytime, This week, This month)
+
+- **Clean Project Structure**
+  - addons saved to NightBlade_addons folder, organized by category
 
 ## Contributing Addons
 
