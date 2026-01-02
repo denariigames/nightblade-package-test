@@ -1,4 +1,6 @@
-# NightBlade MMO Addons
+# NightBlade Addon Manager
+
+<img width="64" height="64" alt="image" src="https://raw.githubusercontent.com/denariigames/nightblade-addon-manager/refs/heads/master/images/LogoIcon.png" />
 
 **Addon Manager** is a custom Unity Editor window designed for [**NightBlade MMO**](https://github.com/Fallen-Entertainment/NightBlade_MMO) that provides a clean, professional interface for discovering, installing, and managing addons.
 
@@ -10,17 +12,20 @@ It functions as a private, curated "addon marketplace" directly inside the Unity
 
 - **Dynamic Addon Discovery**
   - Addons are loaded from a central [manifest.json](https://github.com/denariigames/nightblade-addons/blob/master/manifest.json)
-  - Shows outdated addons where an update is available
+  - Shows updates available to installed addons
   - Clean, Unity Package Manager-inspired layout
 
 - **Smart Filtering**
   - Category
-  - Publisher (Core or Community)
-  - Status (All, Installed, Update Available, Not Installed)
-  - Recency (Anytime, This week, This month)
+  - Publisher (Core <img width="16" height="16" alt="image" src="https://raw.githubusercontent.com/denariigames/nightblade-addon-manager/refs/heads/master/images/CoreBadge.png" /> or Community)
+  - Status (All, Installed <img width="16" height="16" alt="image" src="https://raw.githubusercontent.com/denariigames/nightblade-addon-manager/refs/heads/master/images/CheckIcon.png" />, Update Available <img width="16" height="16" alt="image" src="https://raw.githubusercontent.com/denariigames/nightblade-addon-manager/refs/heads/master/images/UpdateIcon.png" />, Not Installed)
+  - Recency (Anytime, This week <img width="16" height="16" alt="image" src="https://raw.githubusercontent.com/denariigames/nightblade-addon-manager/refs/heads/master/images/NewBadge.png" />, This month)
 
 - **Clean Project Structure**
   - Addons saved to NightBlade_addons folder, organized by category
+
+- **Opt-In Analytics**
+  - NightBlade Addon Manager collects completely anonymous usage statistics (addon downloads) to highlight the most popular addons in the community. No personal or project data is ever collected or transmitted.
 
 ## Contributing Addons
 
