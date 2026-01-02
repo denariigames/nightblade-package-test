@@ -20,7 +20,7 @@ It functions as a private, curated "addon marketplace" directly inside the Unity
   - Recency (Anytime, This week, This month)
 
 - **Clean Project Structure**
-  - addons saved to NightBlade_addons folder, organized by category
+  - Addons saved to NightBlade_addons folder, organized by category
 
 ## Contributing Addons
 
