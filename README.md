@@ -66,7 +66,7 @@ Optional, but recommended:
 - description (supports \n for line breaks)
 - screenshot (filename of screenshot file in repo at same root as package.json, e.g. screenshot.png)
 
-A valid example package.json is [available here](https://github.com/denariigames/nightblade-addons/blob/master/example-package.json).
+A valid example package.json is [available here](https://github.com/denariigames/nightblade-addon-manager/blob/master/example-package.json).
 
 ### Approved Categories
 
