@@ -27,16 +27,27 @@ It functions as a private, curated "addon marketplace" directly inside the Unity
 - **Opt-In Analytics**
   - NightBlade Addon Manager collects completely anonymous usage statistics (addon downloads) to highlight the most popular addons in the community. No personal or project data is ever collected or transmitted.
 
-## Contributing Addons
+## Contributing Addons (Easy Way)
 
-To contribute your addon:
+**NEW**
+[Addon Packager](https://github.com/denariigames/nightblade-addons/tree/master/AddonPackager) is a custom Unity Editor tool designed for NightBlade MMO community contributions. It simplifies the process of packaging your addons by:
+
+- Exporting your addon folder as a .unitypackage with the required guid file
+- Automatically generating a properly formatted package.json manifest
+
+This makes it incredibly easy to share your addons with the NightBlade community. You can install Addon Packager directly from Addon Manager.
+
+## Contributing Addons (Hard Way)
+
+To prepare your addon:
 
 - Bundle your assets as a .unitypackage with a guid file (*do not include the Assets folder!*)
-  - The guid file should have a filename unique to the project. You can use a resource like [GuidGenerator](https://guidgenerator.com/) to create one.
-  - Creating the file in Unity as a text file should work. Otherwise, `touch your-guid-id` at the command line so there is no extension (Windows equivalent: `echo.> your-guid-id`).
+  - The guid file should have a filename unique to the project. We recommend [GuidGenerator](https://guidgenerator.com/) to create one.
+  -  `touch your-guid-id` at the command line so there is no extension (Windows equivalent: `echo.> your-guid-id`).
 - Add a NightBlade compatible package.json with required fields (see below)
 - Host on a public github repository
-- Submit a [pull request](https://github.com/denariigames/nightblade-addons/pulls) to the manifest.json
+- Share your raw package.json URL on Discord
+  - The raw URL links directly to the package.json content and should look like this: `https://raw.githubusercontent.com/<owner>/<repo>/refs/heads/main/package.json`
 
 ### NightBlade Compatible package.json
 
