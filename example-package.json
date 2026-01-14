@@ -10,5 +10,7 @@
   },
   "category": "Characters",
   "description": "A short description of your addon that will be displayed in Addon Manager.",
-  "screenshot": "screenshot.png"
+  "screenshot": "screenshot.png",
+  "patchFile": "myaddon.patch",
+  "dependencies": ["xxx-yyy-zzz"],
 }
