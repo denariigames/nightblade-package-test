@@ -27,6 +27,9 @@ It functions as a private, curated "addon marketplace" directly inside the Unity
 - **Opt-In Analytics**
   - NightBlade Addon Manager collects completely anonymous usage statistics (addon downloads) to highlight the most popular addons in the community. No personal or project data is ever collected or transmitted.
 
+- **Dependency Management (WIP)**
+  - Initial support for indicating if addon requires core patch or has other addon dependencies.
+
 ## Contributing Addons (Easy Way)
 
 **NEW**
@@ -66,12 +69,18 @@ Optional, but recommended:
 - description (supports \n for line breaks)
 - screenshot (filename of screenshot file in repo at same root as package.json, e.g. screenshot.png)
 
+Optional:
+
+- patchFile (filename of patch file in repo at same root as package.json, e.g. myaddon.patch)
+- dependencies (array of other addon guids, e.g. ["xxx", "yyy"])
+
 A valid example package.json is [available here](https://github.com/denariigames/nightblade-addon-manager/blob/master/example-package.json).
 
 ### Approved Categories
 
 Only these categories appear in the filter dropdown:
 
+- Demo
 - Characters
 - Monsters
 - NPCs
@@ -81,6 +90,7 @@ Only these categories appear in the filter dropdown:
 - Gameplay
 - UI
 - MMO
+- Integration
 - Tools
 
 Any other category value will be treated as "Uncategorized" and hidden from filters.
